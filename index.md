@@ -1,4 +1,4 @@
 # hellososhi
 
 ## Japanese/Espanish Dictionary
-https://hellososhi.github.io/diccionario/
+https://hellososhi.github.io/diccionario
