@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,16 @@
     <script src="main.js"></script>
     <title>西和・和西辞典</title>
 </head>
+
 <body>
     <h1>西和</h1>
-    <input type="text" id="esjaword"/><button type="button" onclick="searchEsJa()">検索</button>
+    <form method="get" onsubmit="searchEsJa()">
+        <input type="text" id="esjaword" /><button onclick="searchEsJa()">検索</button>
+    </form>
     <h1>和西</h1>
-    <input type="text" id="jaesword"/><button type="button" onclick="searchJaEs()">検索</button>
+    <form method="get" onsubmit="searchEsJa()">
+        <input type="text" id="jaesword" /><button onclick="searchJaEs()">検索</button>
+    </form>
 </body>
+
 </html>
